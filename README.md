@@ -1,10 +1,14 @@
 # Form Viewer API
-This project is a REST API for accessing forms data stored in a Mongo DB.
+This project is a REST API for accessing forms data stored in a MongoDB.
 
 It is primarily used for accessing JSON form data via HTTP as part of the [Form Runner project](https://github.com/m24murray/form-runner).
 
 
 ## Getting started
+The project mainly uses Spring Boot, Data MongoDB and Data Rest to provide an API for querying form data in Mongo via HTTP.
+
+Gradle is used as the project build tool.
+
 ### Prerequisites
 _This setup is for macOS and has not yet been tested on non-mac machines._
 
